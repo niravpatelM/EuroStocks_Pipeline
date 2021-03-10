@@ -24,17 +24,17 @@ pipeline {
 			}
 		}
 		
-		stage ('euroStocksRemarketingPortalForProductsBackend_1589') {
+		stage ('euroStocksAddProductBackend_1586') {
 			steps {
-					echo "euroStocksRemarketingPortalForProductsBackend_1589 Execution Started!!"
-					bat 'euroStocksRemarketingPortalForProductsBackend_1589.bat'
+					echo "euroStocksAddProductBackend_1586 Execution Started!!"
+					bat 'euroStocksAddProductBackend_1586.bat'
 			}
 		}
 		
-		stage ('euroStocksRemarketingPortalForVehiclesBackend_1590') {
+		stage ('euroStocksAddVehicleBackend_1587') {
 			steps {
-					echo "euroStocksRemarketingPortalForVehiclesBackend_1590 Execution Started!!"
-					bat 'euroStocksRemarketingPortalForVehiclesBackend_1590.bat'
+					echo "euroStocksAddVehicleBackend_1587 Execution Started!!"
+					bat 'euroStocksAddVehicleBackend_1587.bat'
 			}
 		}
 		
