@@ -3,38 +3,45 @@ pipeline {
 		label 'Windows_Node'
 	} 
 	stages {
-		stage(‘Chekout’) {
+		stage('Chekout') {
 			steps {
 				echo "Compile !!"
-				git 'https://github.com/simplilearn-github/Pipeline_Script.git'
+				git 'https://github.com/gtlniravpatel/EuroStocks_Pipeline.git'
 			}
 		}
 	
-		stage (‘Build’) {
+		stage ('directAutosLogin_1748') {
 			steps {
-					echo "JUnit Passed !!"
-					bat 'Build.bat'
+					echo "directAutosLogin_1748 Execution Started!!"
+					bat 'directAutosLogin_1748.bat'
 			}
 		}
 	
-		stage (‘Deploy’) {
+		stage ('euroStocksLoginForgot_1567') {
 			steps {
-					echo "Deploy’ Passed !!"
-					bat 'Deploy.bat'
+					echo "euroStocksLoginForgot_1567 Execution Started!!"
+					bat 'euroStocksLoginForgot_1567.bat'
 			}
 		}
 		
-		stage (‘Test’) {
+		stage ('euroStocksRemarketingPortalForProductsBackend_1589') {
 			steps {
-					echo "Deploy’ Passed !!"
-					bat 'Unit.bat'
+					echo "euroStocksRemarketingPortalForProductsBackend_1589 Execution Started!!"
+					bat 'euroStocksRemarketingPortalForProductsBackend_1589.bat'
 			}
 		}
 		
-		stage (‘Quality’) {
+		stage ('euroStocksRemarketingPortalForVehiclesBackend_1590') {
 			steps {
-					echo "Deploy’ Passed !!"
-					bat 'Quality.bat'
+					echo "euroStocksRemarketingPortalForVehiclesBackend_1590 Execution Started!!"
+					bat 'euroStocksRemarketingPortalForVehiclesBackend_1590.bat'
+			}
+		}
+		
+		stage ('FullSuitesExecution Execution') {
+			steps {
+					echo "FullSuitesExecution Execution Started!!"
+					bat 'FullSuitesExecution.bat'
 			}
 		}
 
