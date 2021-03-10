@@ -24,26 +24,7 @@ pipeline {
 			}
 		}
 		
-		stage ('euroStocksAddProductBackend_1586') {
-			steps {
-					echo "euroStocksAddProductBackend_1586 Execution Started!!"
-					bat 'euroStocksAddProductBackend_1586.bat'
-			}
-		}
 		
-		stage ('euroStocksAddVehicleBackend_1587') {
-			steps {
-					echo "euroStocksAddVehicleBackend_1587 Execution Started!!"
-					bat 'euroStocksAddVehicleBackend_1587.bat'
-			}
-		}
-		
-		stage ('FullSuitesExecution Execution') {
-			steps {
-					echo "FullSuitesExecution Execution Started!!"
-					bat 'FullSuitesExecution.bat'
-			}
-		}
 
 	}
 	post{
