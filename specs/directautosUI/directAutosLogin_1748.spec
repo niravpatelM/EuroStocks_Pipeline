@@ -14,12 +14,6 @@ Created by nirav.patel on 02-17-2021
 * Verify validation message for required field on Login Page
 
 
-## Verification of Login User for all ready created of dealer website
-* Setup and launch browser with Dealer site
-* Click on link for Login User for dealer website
-* Enter valid username "eurostocksauto@mailinator.com" and password for user
-* Verify User is redirect to the dashboard screen "Automation" for dealer website
-
 
 ## Verification of validation message on Forgot Password Page of dealer website
 * Setup and launch browser with Dealer site
